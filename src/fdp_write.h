@@ -1302,6 +1302,7 @@ static void write_composition(FILE* f, const FevFile& fev) {
             remain_y += seg_spacing_y;
         }
         }
+    }
     close(f, 3, "ThemeEditorItemRepository");
     close(f, 2, "ThemeEditor");
 
